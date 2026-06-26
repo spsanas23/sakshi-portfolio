@@ -13,8 +13,8 @@ function useIsMobile() {
 }
 
 const socialLinks = [
-  { icon: FiGithub,   href: 'https://github.com/',         label: 'GitHub'   },
-  { icon: FiLinkedin, href: 'https://linkedin.com/',       label: 'LinkedIn' },
+  { icon: FiGithub,   href: 'https://github.com/spsanas23/',         label: 'GitHub'   },
+  { icon: FiLinkedin, href: 'https://www.linkedin.com/in/sakshi-sanas-aa7b61284',       label: 'LinkedIn' },
   { icon: FiMail,     href: 'mailto:spsanas23@gmail.com',  label: 'Email'    },
 ]
 
