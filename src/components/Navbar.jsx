@@ -101,8 +101,8 @@ export default function Navbar() {
         </ul>
 
         <motion.a
-          href="/resume.pdf"
-          target="_blank"
+          href="/Sakshi_Prashant_Sanas.pdf"
+          download
           rel="noopener noreferrer"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
