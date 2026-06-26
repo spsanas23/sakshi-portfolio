@@ -65,7 +65,7 @@ export default function Contact() {
 
             {/* Social links */}
             <motion.div variants={fadeInLeft} style={{ display: 'flex', gap: '0.75rem', paddingTop: '0.5rem' }}>
-              {[{ icon: FiLinkedin, href: 'https://linkedin.com/', label: 'LinkedIn', color: '#7C3AED' }, { icon: FiGithub, href: 'https://github.com/', label: 'GitHub', color: '#8B5CF6' }].map(({ icon: Icon, href, label, color }) => (
+              {[{ icon: FiLinkedin, href: 'https://www.linkedin.com/in/sakshi-sanas-aa7b61284/', label: 'LinkedIn', color: '#7C3AED' }, { icon: FiGithub, href: 'https://github.com/spsanas23/', label: 'GitHub', color: '#8B5CF6' }].map(({ icon: Icon, href, label, color }) => (
                 <motion.a key={label} href={href} target="_blank" rel="noopener noreferrer" aria-label={label} whileHover={{ y: -3, borderColor: color }} whileTap={{ scale: 0.95 }}
                   style={{ width: '48px', height: '48px', borderRadius: '12px', border: '1px solid #1E1E2E', background: 'rgba(22,22,31,0.8)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#64748B', textDecoration: 'none', transition: 'border-color 0.2s, color 0.2s' }}>
                   <Icon size={20} />
@@ -83,7 +83,7 @@ export default function Contact() {
             <p style={{ fontSize: '0.9rem', color: '#64748B', fontFamily: 'Inter, sans-serif', lineHeight: 1.8, marginBottom: '2rem' }}>
               I'm actively looking for opportunities in AI, ML, and Data Science. Whether it's a full-time role, internship, or a project — let's build something great together.
             </p>
-            <motion.a href="mailto:spsanas23@gmail.com" whileHover={{ scale: 1.04, boxShadow: '0 0 30px rgba(139,92,246,0.4)' }} whileTap={{ scale: 0.97 }}
+            <motion.a href="http://mailto:spsanas23@gmail.com" whileHover={{ scale: 1.04, boxShadow: '0 0 30px rgba(139,92,246,0.4)' }} whileTap={{ scale: 0.97 }}
               style={{ display: 'inline-block', padding: '0.85rem 2rem', borderRadius: '12px', background: 'linear-gradient(135deg, #7C3AED, #8B5CF6)', color: '#fff', fontFamily: 'Inter, sans-serif', fontWeight: 600, fontSize: '0.95rem', textDecoration: 'none', boxShadow: '0 0 20px rgba(139,92,246,0.3)' }}>
               Send me an Email
             </motion.a>
